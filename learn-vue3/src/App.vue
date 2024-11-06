@@ -1,7 +1,9 @@
-<script setup></script>
-
 <template>
-  <div>hello vue3</div>
+  <div></div>
 </template>
 
-<style></style>
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped></style>
