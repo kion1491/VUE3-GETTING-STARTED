@@ -1,4 +1,8 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { createApp } from "vue";
 import App from "./App.vue";
-
-createApp(App).mount("#app");
+// import AppCard from "./components/AppCard.vue";
+const app = createApp(App);
+// app.mount("AppCard", AppCard);
+app.mount("#app");
+import "bootstrap/dist/js/bootstrap.js";
