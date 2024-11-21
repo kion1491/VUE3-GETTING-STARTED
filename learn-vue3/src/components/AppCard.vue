@@ -54,11 +54,12 @@ export default {
   setup(props, context) {
     console.log("props.title: ", props.title);
 
-    const isLikeClass = computed(() =>
-      props.isLike ? "btn-danger" : "btn-outline-danger"
-    );
     const typeName = computed(() =>
       props.type === "news" ? "뉴스" : "공지사항"
+    );
+
+    const isLikeClass = computed(() =>
+      props.isLike ? "btn-danger" : "btn-outline-danger"
     );
     const toggleLike = () => {
       context.emit("toggleLike");
